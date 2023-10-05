@@ -1,1 +1,69 @@
 /* your code here */
+.content{
+	background-color:black;
+	color:white;
+}
+.top{
+	display:flex;
+	justify-content:space-between;
+}
+.media-icons{
+	display:flex;
+	justify-content:space-around;
+}
+#facebook{
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	background-color:#4267B2;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#twitter{
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	background-color:#1DA1F2;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#insta{
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	background-color:#E1306C;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#linkedIn{
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	background-color:#0077B5;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+#youTube{
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	background-color:#FF0000;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.link-boxes{
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.box-col{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
