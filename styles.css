@@ -1,4 +1,7 @@
 /* your code here */
+body{
+	font-family:arial;
+}
 .content{
 	background-color:black;
 	color:white;
@@ -6,10 +9,19 @@
 .top{
 	display:flex;
 	justify-content:space-between;
+	align-items:center;
+}
+.logo_name{
+	margin-left:20px;
+	font-size:22px;
 }
 .media-icons{
 	display:flex;
 	justify-content:space-around;
+	margin:15px;
+}
+.media-icons>div{
+	margin:5px;
 }
 #facebook{
 	width:30px;
@@ -66,4 +78,8 @@
 	flex-direction:column;
 	justify-content:center;
 	align-items:center;
+}
+.box-col>h3{
+	font-size:15px;
+	text-decoration:underline;
 }
